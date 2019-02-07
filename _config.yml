@@ -28,7 +28,7 @@ navbar-links:
   Links:
     - Github profile: "https://github.com/byeongkijeong"
     - Google scholar profile: "https://scholar.google.co.kr/citations?user=2ujXl3MAAAAJ"
-    - Business intelligence lab: "https://sites.google.com/site/kkbizintelligence/"
+    - Business intelligence lab: "https://sites.google.com/view/kkbizintelligence/"
 #  Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
 #    - Learn markdown: "http://www.markdowntutorial.com/"
@@ -117,6 +117,9 @@ disqus: "byeongki_j"
 
 # Fill in your Google Analytics ID to track your website using GA
 google_analytics: "UA-50390788-2"
+
+# google fonts setting
+google_fonts: "Noto+Sans"
 
 # Google Tag Manager ID
 #gtm: ""
