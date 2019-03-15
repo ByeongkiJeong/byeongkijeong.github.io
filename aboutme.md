@@ -27,7 +27,7 @@ A member of [Business Intelligence and Data Analytics Laboratory @Konkuk univers
 * Song, C. H., Han, J. W., <b>Jeong, B.</b>, & Yoon, J*. (2017). Mapping the Patent Landscape in the Field of Personalized Medicine. Journal of Pharmaceutical Innovation, 1-11. [(Link)](https://link.springer.com/article/10.1007/s12247-017-9283-z)  
 
 #### Domestic
-* 오승현, 고남욱, <b>정병기</b>, 최재웅, 윤장혁*, 이재민, 고병열. (Accepted) 제품혁신수준 분석을 위한 특허정보 기반 지표 개발(Development of patent information-based indexes for product innovativeness analysis) , 대한산업공학회지. [(Link)]([http://www.](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07612571)  
+* 오승현, 고남욱, <b>정병기</b>, 최재웅, 윤장혁*, 이재민, 고병열. (Accepted) 제품혁신수준 분석을 위한 특허정보 기반 지표 개발(Development of patent information-based indexes for product innovativeness analysis) , 대한산업공학회지. [(Link)](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07612571)  
 * 이지호, <b>정병기</b>, 고남욱, 오승현, & 윤장혁*. (2018) 특허의 Problem-Solution 텍스트 마이닝을 활용한 기술경쟁정보 분석 방법. 지식재산연구, 13(3), 171-204. [(Link)](https://www.kiip.re.kr/journal/view.do?bd_gb=jor&bd_cd=1&bd_item=0&po_d_gb=&po_no=J00050&po_j_no=J00050&po_a_no=341)  
 * 이다혜, 최하영, <b>정병기</b>, & 윤장혁*. (2018). 특허 텍스트마이닝을 활용한 바이오 연료 기술 모니터링. 지식재산연구, 13(1), 285-312. [(Link)](https://www.kiip.re.kr/journal/view.do?bd_gb=jor&bd_cd=1&bd_item=0&po_d_gb=&po_no=J00048&po_j_no=J00048&po_a_no=327)  
 * <b>정병기</b>, 고남욱, 경진영, 최덕용, & 윤장혁*. (2017). 장벽특허의 무효화 분석을 위한 선행특허기술 발굴 시스템 개발. Entrue Journal of Information Technology, 16(1), 97-108. [(Link)](www.entrue.com/Contents/DownLoadFile?FileName=%5B3-3%5DRN-2016-02-012_%EC%9C%A4%EC%9E%A5%ED%98%81_2%EA%B5%90_p_3.pdf)  
@@ -51,6 +51,8 @@ A member of [Business Intelligence and Data Analytics Laboratory @Konkuk univers
 
 ### Projects
 * <b>2018.06~2021.05</b>, 소셜-기술 데이터 애널리틱스 기반의 비즈니스 발굴-평가-운영 체계 (Social-technical data analytics-based business intelligence for business discovery, evaluation and operation), <i>한국연구재단</i>, Researcher  
+* <b>2018.11~2019.07</b>, 지적측량 업무량 변동예측 모델 개발을 위한 LX 내외부 데이터 처리 및 분석 방안 연구(Study on LX internal and external data processing and analysis for development of prediction model of cadastral survey workload), <i>한국국토정보공사</i>, Researcher  
+* <b>2018.11~2018.12</b>, 빅데이터 등을 활용한 KTRS 평가지표 객관화(Quantification of KTRS evaluation using big data), <i>기술보증기금</i>, Researcher  
 * <b>2018.06~2018.12</b>, 지식재산(IP) 가치평가 지원방안 연구(Study on automated process of intellectual property valuation), <i>기술보증기금</i>, Researcher  
 * <b>2018.05~2018.12</b>, 근미래이슈 탐지를 위한 오픈데이터 유형탐색 및 분석모델 연구 (Exploration and analysis model development of open data sources for near future issue detection), <i>한국과학기술정보연구원</i>, Researcher  
 * <b>2017.04~2018.03</b>, 기술역량기반 응용기술 후보 및 주요개발자 발굴 및 추천 시스템 (A system for discovering application technology candidates and their key researchers based on technological competence), <i>연구성과실용화진흥원</i>, Researcher  
