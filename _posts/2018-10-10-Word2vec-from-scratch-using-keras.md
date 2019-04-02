@@ -274,7 +274,7 @@ if __name__ == "__main__":
     corpus = preprocessing_corpus(corpus, sampling_rate=1.0)
     print("Corpus was loaded in\t{time} sec".format(time=time()-time_check)); time_check = time()
     
-    vocab = make_vocab(corpus, top_n_ratio=0.8)
+    vocab = making_vocab(corpus, top_n_ratio=0.8)
     vocab_size = len(vocab)
     print("Vocabulary was made in\t{time} sec".format(time=time()-time_check)); time_check = time()
     
@@ -419,7 +419,7 @@ if __name__ == "__main__":
     corpus = preprocessing_corpus(corpus, sampling_rate=1.0)
     print("Corpus was loaded in\t{time} sec".format(time=time()-time_check)); time_check = time()
     
-    vocab = make_vocab(corpus, top_n_ratio=0.8)
+    vocab = making_vocab(corpus, top_n_ratio=0.8)
     vocab_size = len(vocab)
     print("Vocabulary was made in\t{time} sec".format(time=time()-time_check)); time_check = time()
     
