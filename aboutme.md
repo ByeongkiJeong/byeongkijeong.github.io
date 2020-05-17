@@ -22,6 +22,7 @@ A member of [Business Intelligence and Data Analytics Laboratory @Konkuk univers
 
 ### Papers
 #### International  
+* Choi, J., <b>Jeong, B.</b>, Yoon, J*, Coh, B., Lee, J. (2020). A novel approach to evaluating the business potential of intellectual properties: A machine learning-based predictive analysis of patent lifetime.  Computers and Industrial Engineering. [(Link)](https://www.sciencedirect.com/science/article/pii/S0360835220302783)  
 * Choi, J., <b>Jeong, B.</b> & Yoon, J*. (2019). Technology opportunity discovery under the dynamic change of focus technology fields: Application of sequential pattern mining to patent classifications.  Technological Forecasting and Social Change. [(Link)](https://www.sciencedirect.com/science/article/pii/S0040162518312745)  
 * <b>Jeong, B.</b>, Lee, J. & Yoon, J*. (2019). Social media mining for product planning: a product opportunity mining approach based on topic modeling and sentiment analysis. International Journal of Information Management. [(Link)](http://www.sciencedirect.com/science/article/pii/S0268401217302955)  
 * Ko, N., <b>Jeong, B.</b>, Seo, W., & Yoon, J. (2019). A transferability evaluation model for intellectual property. Computers & Industrial Engineering, 131, 344-355. [(Link)](https://www.sciencedirect.com/science/article/pii/S0360835219302141)  
