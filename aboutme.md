@@ -32,8 +32,8 @@ A member of [Business Intelligence and Data Analytics Laboratory @Konkuk univers
 * Song, C. H., Han, J. W., <b>Jeong, B.</b>, & Yoon, J*. (2017). Mapping the Patent Landscape in the Field of Personalized Medicine. Journal of Pharmaceutical Innovation, 1-11. [(Link)](https://link.springer.com/article/10.1007/s12247-017-9283-z)  
 
 #### Domestic
-* 정재민, <b>정병기</b>, 윤장혁*. (2019) 온라인 제품리뷰 데이터를 활용한 제품기회의 동적 모니터링 (Dynamic monitoring of product opportunities with online product review data) , 대한산업공학회지, (Accepted).  
-* 윤장혁*, 고남욱, 정병기, 최재웅. (2019) 상표데이터기반 비즈니스 인텔리전스: 활용사례 및 연구이슈 (Trademark data-based business intelligence: applications and future research issues) , 대한산업공학회지, (Accepted).  
+* 정재민, <b>정병기</b>, 윤장혁*. (2019) 온라인 제품리뷰 데이터를 활용한 제품기회의 동적 모니터링 (Dynamic monitoring of product opportunities with online product review data) , 대한산업공학회지, 45(5).  
+* 윤장혁*, 고남욱, 정병기, 최재웅. (2019) 상표데이터기반 비즈니스 인텔리전스: 활용사례 및 연구이슈 (Trademark data-based business intelligence: applications and future research issues) , 대한산업공학회지, 45(4).  
 * 오승현, 고남욱, <b>정병기</b>, 최재웅, 윤장혁*, 이재민, 고병열. (2019) 제품혁신수준 분석을 위한 특허정보 기반 지표 개발(Development of patent information-based indexes for product innovativeness analysis) , 대한산업공학회지, 45(1). [(Link)](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07612571)  
 * 이지호, <b>정병기</b>, 고남욱, 오승현, & 윤장혁*. (2018) 특허의 Problem-Solution 텍스트 마이닝을 활용한 기술경쟁정보 분석 방법. 지식재산연구, 13(3), 171-204. [(Link)](https://www.kiip.re.kr/journal/view.do?bd_gb=jor&bd_cd=1&bd_item=0&po_d_gb=&po_no=J00050&po_j_no=J00050&po_a_no=341)  
 * 이다혜, 최하영, <b>정병기</b>, & 윤장혁*. (2018). 특허 텍스트마이닝을 활용한 바이오 연료 기술 모니터링. 지식재산연구, 13(1), 285-312. [(Link)](https://www.kiip.re.kr/journal/view.do?bd_gb=jor&bd_cd=1&bd_item=0&po_d_gb=&po_no=J00048&po_j_no=J00048&po_a_no=327)  
@@ -43,6 +43,7 @@ A member of [Business Intelligence and Data Analytics Laboratory @Konkuk univers
 * 김용현, <b>정병기</b>, & 윤장혁*. (2016). 특허경영활동이 기업 경영성과에 미치는 영향에 관한 연구: 국내 의료기기 제조 기업을 중심으로. 산업경영시스템학회지, 39(1), 1-8. [(Link)](http://www.ksie.or.kr/bbs/?bid=thesis&volumn=%C1%A639%B1%C7%20%C1%A61%C8%A3)  
 
 #### Conference
+* <b>정병기</b>, & 윤장혁. (2019). 딥 러닝을 활용한 상표기반의 비즈니스 기회 발굴. 대한산업공학회 추계학술대회, 서울대학교, 서울  
 * <b>정병기</b>, & 윤장혁. (2018). Event Detection & Tracking 기반의 이머징 니즈 탐지 방법. 대한산업공학회 춘계공동학술대회, 현대호텔, 경주  
 * <b>정병기</b>, & 윤장혁. (2017). 텍스트마이닝과 메타휴리스틱알고리즘 기반의 신규 특허 컨셉 개발 방법. 대한산업공학회 춘계공동학술대회, Expo Convention Center, 여수  
 * 고남욱, <b>정병기</b>, & 윤장혁. (2017). 특허거래정보를 활용한 IP평가모형: 딥뉴럴네트워크 접근. 대한산업공학회 춘계공동학술대회, Expo Convention Center, 여수  
@@ -57,6 +58,7 @@ A member of [Business Intelligence and Data Analytics Laboratory @Konkuk univers
 * 김용현, <b>정병기</b>, & 윤장혁. (2015). 특허경영활동이 기업 경영성과에 미치는 영향에 관한 연구: 국내 의료기기 제조 기업을 중심으로. 대한산업공학회 춘계공동학술대회, 라마다호텔, 제주  
 
 ### Projects
+* <b>2019.06~2019.12</b>, 빅데이터 등을 활용한 평가항목 객관화 체계 구축 (Development of a quantified evaluation framework for KTRS using big data), <i>기술보증기금</i>, Researcher  
 * <b>2018.06~2021.05</b>, 소셜-기술 데이터 애널리틱스 기반의 비즈니스 발굴-평가-운영 체계 (Social-technical data analytics-based business intelligence for business discovery, evaluation and operation), <i>한국연구재단</i>, Researcher  
 * <b>2018.11~2019.07</b>, 지적측량 업무량 변동예측 모델 개발을 위한 LX 내외부 데이터 처리 및 분석 방안 연구(Study on LX internal and external data processing and analysis for development of prediction model of cadastral survey workload), <i>한국국토정보공사</i>, Researcher  
 * <b>2018.11~2018.12</b>, 빅데이터 등을 활용한 KTRS 평가지표 객관화(Quantification of KTRS evaluation using big data), <i>기술보증기금</i>, Researcher  
