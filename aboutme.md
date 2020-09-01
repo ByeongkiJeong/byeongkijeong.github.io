@@ -83,5 +83,5 @@ A member of [Business Intelligence and Data Analytics Laboratory @Konkuk univers
 * <b>정병기</b>, 김정욱. (2016). 의미론적 융합 기술 분석 방법: 토픽모델링과 교차영향분석의 활용, 특허청장상, <i>제 11회 지식재산우수논문 공모전</i>, 특허청(KIPO)
 
 ### Contact me
-[jbk958(at)gmail.com](mailto:jbk958@gmail.com)  
-[byeongkij(at)konkuk.ac.kr](mailto:byeongkij@konkuk.ac.kr)
+* [jbk958(at)gmail.com](mailto:jbk958@gmail.com)  
+* [byeongkij(at)konkuk.ac.kr](mailto:byeongkij@konkuk.ac.kr)
