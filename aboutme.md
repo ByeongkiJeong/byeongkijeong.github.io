@@ -25,9 +25,9 @@ A member of [Business Intelligence and Data Analytics Laboratory @Konkuk univers
 9. Song, C. H., Han, J. W., <b>Jeong, B.</b>, & Yoon, J*. (2017). Mapping the Patent Landscape in the Field of Personalized Medicine. Journal of Pharmaceutical Innovation, 1-11. [(Link)](https://link.springer.com/article/10.1007/s12247-017-9283-z)  
 
 #### Domestic
-1. 정재민, <b>정병기</b>, 윤장혁*. (2020) 비즈니스 기회 발굴을 위한 문제-해결방법 기반의 특허분석 방법 (A problem-solution based patent analysis approach for business opportunity discovery) , 지식재산연구, 15(2), 187-222.  
-2. 정재민, <b>정병기</b>, 윤장혁*. (2019) 온라인 제품리뷰 데이터를 활용한 제품기회의 동적 모니터링 (Dynamic monitoring of product opportunities with online product review data) , 대한산업공학회지, 45(5), 387-401.  
-3. 윤장혁*, 고남욱, 정병기, 최재웅. (2019) 상표데이터기반 비즈니스 인텔리전스: 활용사례 및 연구이슈 (Trademark data-based business intelligence: applications and future research issues) , 대한산업공학회지, 45(4), 270-283.  
+1. 정재민, <b>정병기</b>, 윤장혁*. (2020) 비즈니스 기회 발굴을 위한 문제-해결방법 기반의 특허분석 방법 (A problem-solution based patent analysis approach for business opportunity discovery) , 지식재산연구, 15(2), 187-222. [(Link)](https://www.kiip.re.kr/journal/view.do?bd_gb=jor&bd_cd=1&bd_item=0&po_d_gb=&po_no=J00057&po_j_no=J00057&po_a_no=396)    
+2. 정재민, <b>정병기</b>, 윤장혁*. (2019) 온라인 제품리뷰 데이터를 활용한 제품기회의 동적 모니터링 (Dynamic monitoring of product opportunities with online product review data) , 대한산업공학회지, 45(5), 387-401. [(Link)](http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE09218525)    
+3. 윤장혁*, 고남욱, 정병기, 최재웅. (2019) 상표데이터기반 비즈니스 인텔리전스: 활용사례 및 연구이슈 (Trademark data-based business intelligence: applications and future research issues) , 대한산업공학회지, 45(4), 270-283. [(Link)](http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE08760709)   
 4. 오승현, 고남욱, <b>정병기</b>, 최재웅, 윤장혁*, 이재민, 고병열. (2019) 제품혁신수준 분석을 위한 특허정보 기반 지표 개발(Development of patent information-based indexes for product innovativeness analysis) , 대한산업공학회지, 45(1), 11-21. [(Link)](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07612571)  
 5. 이지호, <b>정병기</b>, 고남욱, 오승현, & 윤장혁*. (2018) 특허의 Problem-Solution 텍스트 마이닝을 활용한 기술경쟁정보 분석 방법. 지식재산연구, 13(3), 171-204. [(Link)](https://www.kiip.re.kr/journal/view.do?bd_gb=jor&bd_cd=1&bd_item=0&po_d_gb=&po_no=J00050&po_j_no=J00050&po_a_no=341)  
 6. 이다혜, 최하영, <b>정병기</b>, & 윤장혁*. (2018). 특허 텍스트마이닝을 활용한 바이오 연료 기술 모니터링. 지식재산연구, 13(1), 285-312. [(Link)](https://www.kiip.re.kr/journal/view.do?bd_gb=jor&bd_cd=1&bd_item=0&po_d_gb=&po_no=J00048&po_j_no=J00048&po_a_no=327)  
