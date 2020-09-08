@@ -25,6 +25,7 @@ description: Finding meaning under the data.
 navbar-links:
   Home: "http://byeongkijeong.github.io/"
   About Me: "aboutme"
+  Post archive: "archive"
   Links:
     - Github profile: "https://github.com/byeongkijeong"
     - Google scholar profile: "https://scholar.google.co.kr/citations?user=2ujXl3MAAAAJ"
