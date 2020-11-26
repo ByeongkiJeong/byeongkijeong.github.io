@@ -14,7 +14,7 @@ A member of [Business Intelligence and Data Analytics Laboratory @Konkuk univers
 
 ### Papers
 #### International  
-* <b>Jeong, B.,</b>, Ko, N., Yoon, J.*, Son, C. (In press). Trademark-based framework to uncover business diversification opportunities: Application of deep link prediction and competitive intelligence analysis. Computers in industry. [(Link)](https://www.example.com)  
+* <b>Jeong, B.,</b>, Ko, N., Yoon, J.*, Son, C. (2021). Trademark-based framework to uncover business diversification opportunities: Application of deep link prediction and competitive intelligence analysis. Computers in industry, 124, 103356. [(Link)](https://www.sciencedirect.com/science/article/pii/S016636152030590X)  
 * Ko, N., <b>Jeong, B.,</b> Yoon, J.*, Son, C. (2020). Patent-trademark linking framework for business competition analysis. Computers in industry, 122, 103242. [(Link)](https://www.sciencedirect.com/science/article/pii/S0166361519311169)  
 * Choi, J., <b>Jeong, B.</b>, Yoon, J.*, Coh, B., Lee, J. (2020). A novel approach to evaluating the business potential of intellectual properties: A machine learning-based predictive analysis of patent lifetime.  Computers and Industrial Engineering, 145, 106544. [(Link)](https://www.sciencedirect.com/science/article/pii/S0360835220302783)  
 * Choi, J., <b>Jeong, B.</b> & Yoon, J*. (2019). Technology opportunity discovery under the dynamic change of focus technology fields: Application of sequential pattern mining to patent classifications.  Technological Forecasting and Social Change. [(Link)](https://www.sciencedirect.com/science/article/pii/S0040162518312745)  
