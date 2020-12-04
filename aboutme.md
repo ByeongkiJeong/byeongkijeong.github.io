@@ -8,9 +8,11 @@ subtitle:
 21세기의 대리석 속에 감춰진 형상을 꺼내주는 일을 합니다.  
 A member of [Business Intelligence and Data Analytics Laboratory @Konkuk university](https://sites.google.com/view/kkbizintelligence/)  
 
+* Research interest: Business NLP, Natural language understanding, Patent intelligence, Social intelligence, Data science 
+
 ### Education
-* <b>Bachelor's degree</b> @Department of Industrial engineering, Konkuk university, 2011~2017  
-* <b>Integrated Ph.D degree</b> @Department of Industrial engineering, Konkuk university, 2017~ongoing
+* <b>Bachelor's degree</b> @Department of Industrial engineering, Konkuk university, 2011.03 ~ 2017.02  
+* <b>Integrated Ph.D degree</b> @Department of Industrial engineering, Konkuk university, 2017.03 ~ 2021.02
 
 ### Papers
 #### International  
