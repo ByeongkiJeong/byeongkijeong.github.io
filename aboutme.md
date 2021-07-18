@@ -1,22 +1,25 @@
 ---
 layout: page
-title: About me
+title: About Me
 subtitle: 
 ---
 
 <b>Byeongki Jeong</b>  
 21세기의 대리석 속에 감춰진 형상을 꺼내주는 일을 합니다.  
-A member of [Business Intelligence and Data Analytics Laboratory @Konkuk university](https://sites.google.com/view/kkbizintelligence/)  
+
+* Currently working at Optimization&Analytics Office @SK Innovation
+* A former member of [Business Intelligence and Data Analytics Laboratory @Konkuk university](https://sites.google.com/view/kkbizintelligence/)  
 
 * Research interest: Business NLP, Natural language understanding, Patent intelligence, Social intelligence, Data science 
 
 ### Education
+* <b>Ph.D degree</b> @Department of Industrial engineering, Konkuk university, 2017.03 ~ 2021.02
 * <b>Bachelor's degree</b> @Department of Industrial engineering, Konkuk university, 2011.03 ~ 2017.02  
-* <b>Integrated Ph.D degree</b> @Department of Industrial engineering, Konkuk university, 2017.03 ~ 2021.02
 
 ### Papers
 #### International  
-* <b>Jeong, B.,</b>, Ko, N., Yoon, J.*, Son, C. (2021). Trademark-based framework to uncover business diversification opportunities: Application of deep link prediction and competitive intelligence analysis. Computers in industry, 124, 103356. [(Link)](https://www.sciencedirect.com/science/article/pii/S016636152030590X)  
+* Yoon, J., <b>Jeong, B.,</b> Kim, M., Lee, C.* (2021) An information entropy and latent Dirichlet allocation approach to noise patent filtering. Advanced Engineering Informatics, 47, 101243. [(Link)](https://www.sciencedirect.com/science/article/abs/pii/S1474034620302123)
+* <b>Jeong, B.,</b> Ko, N., Yoon, J.*, Son, C. (2021). Trademark-based framework to uncover business diversification opportunities: Application of deep link prediction and competitive intelligence analysis. Computers in industry, 124, 103356. [(Link)](https://www.sciencedirect.com/science/article/pii/S016636152030590X)  
 * Ko, N., <b>Jeong, B.,</b> Yoon, J.*, Son, C. (2020). Patent-trademark linking framework for business competition analysis. Computers in industry, 122, 103242. [(Link)](https://www.sciencedirect.com/science/article/pii/S0166361519311169)  
 * Choi, J., <b>Jeong, B.</b>, Yoon, J.*, Coh, B., Lee, J. (2020). A novel approach to evaluating the business potential of intellectual properties: A machine learning-based predictive analysis of patent lifetime.  Computers and Industrial Engineering, 145, 106544. [(Link)](https://www.sciencedirect.com/science/article/pii/S0360835220302783)  
 * Choi, J., <b>Jeong, B.</b> & Yoon, J*. (2019). Technology opportunity discovery under the dynamic change of focus technology fields: Application of sequential pattern mining to patent classifications.  Technological Forecasting and Social Change. [(Link)](https://www.sciencedirect.com/science/article/pii/S0040162518312745)  
