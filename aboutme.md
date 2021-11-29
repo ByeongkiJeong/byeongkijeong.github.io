@@ -82,7 +82,7 @@ subtitle:
 ### Patent
 * 윤장혁, 이지호, <b>정병기</b>. 사용자 생성 데이터 기반의 사용자 경험 분석 장치 및 방법 (APPARATUS AND METHOD FOR ANALYZING USER EXPERIENCE BASED ON USER-GENERATED DATA). 출원번호: 10-2020-0162997. 대한민국특허청.  
 * 유문재, 장영규, 송정진, 최은철, 김응찬, 고남욱, <b>정병기</b>, 윤장혁, IP 평가 모형을 이용한 IP 평가 방법 및 그 장치(IP VALUATION METHOD USING IP VALUATION MODEL AND APPARATUS THEREOF). 등록번호: 102078289. 대한민국특허청.
-* 윤장혁, 이지호, <b>정병기</b>, 고남욱, 오승현. 기술 경쟁 정보 제공 장치 및 방법 (DEVICE AND METHOD FOR PROVIDING TECHNOLOGICAL COMPETITIVE INTELLIGENCE). 출원번호: 10-2018-0158342. 대한민국특허청.  
+* 윤장혁, 이지호, <b>정병기</b>, 고남욱, 오승현. 기술 경쟁 정보 제공 장치 및 방법 (DEVICE AND METHOD FOR PROVIDING TECHNOLOGICAL COMPETITIVE INTELLIGENCE). 등록번호: 10-2221267. 대한민국특허청.  
 * 윤장혁, 최재웅, <b>정병기</b>. 기술 기회 발굴 장치 및 방법 (Device and method for discovering technology opportunities). 출원번호: 10-2018-0155555. 대한민국특허청.  
 * 윤장혁, 최재웅, <b>정병기</b>, 이재민, 고병열, 권오진. 특허수명예측장치 및 그 동작 방법(DISCRIMINATION APPARATUS FOR PATENT LIFETIME, AND CONTROL METHOD THEREOF). 등록번호: 101877235. 대한민국특허청.  
 
