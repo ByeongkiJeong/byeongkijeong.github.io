@@ -51,9 +51,9 @@ comments: true
 (출처: [Peophet 공식 페이지](https://facebook.github.io/prophet/))*
   - Apple Silicon에서는 아래 명령어로 설치를 추천합니다
 
-    ```bash
-    conda install prophet cmdstanpy==1.1.0 pystan==2.19.1.1
-    ```
+```bash
+conda install prophet cmdstanpy==1.1.0 pystan==2.19.1.1
+```
 
 - yfinance: 야후 파이낸스에서 주식 등 금융상품 데이터 수집 목적 비공식 패키지
 
@@ -156,7 +156,7 @@ plt.show()
       - 약 10%이상 차이가 나는군요. 방향성도 틀렸습니다.
       - 역시 직접적인 예측은 불가능하다는 결론이네요.
 
-![prediction result](../img/post_img/post_img/2023-08-16-Advanced_time_series_data_analysis/pred_model.png)
+![prediction result](../img/post_img/2023-08-16-Advanced_time_series_data_analysis/pred_model.png)
 
 - 예측 말고 해석적으로 접근해봅시다. 아래 코드로 시계열을 분해한 결과를 보겠습니다.
 
