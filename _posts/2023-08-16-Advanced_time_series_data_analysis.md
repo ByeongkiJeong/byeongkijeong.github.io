@@ -20,7 +20,7 @@ comments: true
   
 그 결과로는 대부분 아래와 같은 결과를 가져오고는 합니다.*(야호! MSE 0.01! 나도 이제 워렌버핏!?!!??!)*  
 이런 그림을 제가 수 많은 학부생 연구에서도 봤고, 블로그에서도 봤고, 사실 제 블로그에 있는 이전 포스트에서도 샘플데이터 구하기가 어려워서 묻고 더블로 갔고, 심지어 국내 탑스쿨에 유명한 교수님 랩에서도 이런 결과를 국내 학회에서 발표한것을 봤습니다.  
-![잘못된 시계열 예측](./undefined/img/post_img/2023-08-16-Advanced_time_series_data_analysis/wrong_prediction.png)
+![잘못된 시계열 예측](../img/post_img/2023-08-16-Advanced_time_series_data_analysis/wrong_prediction.png)
   
 어려운 이야기를 할 필요도 없이, 빨간 선을 한두칸정도 왼쪽으로 옮기면 파란선과 동일해보이지 않습니까..?  
 전혀 예측이 되고 있지 않고, 직전 값보다 조금 높은 값을 뱉어내고 있군요. 비슷한 사례로는 직전 값보다 조금 낮은 값을 계속 뱉거나 직전 값과 거의 동일한 값을 계속 뱉는 경우가 있습니다.  
@@ -90,13 +90,13 @@ profile.to_file("report_timeseries.html")
 #### Overview
 - 몇가지 탭이 있는데, 전반적인 데이터 개요를 볼 수 있습니다.
 
-![eda overview](./undefined/img/post_img/2023-08-16-Advanced_time_series_data_analysis/eda_overview.png)
+![eda overview](../img/post_img/2023-08-16-Advanced_time_series_data_analysis/eda_overview.png)
 - 특히 중요한건 Alerts입니다. 
 - 뭐..사실 굳이 분석해보지 않아도 알 수 있는 내용이지만, 'Open', 'High', 'Low', 'Close', 'Adj Close' 등 다섯개 데이터는 전부 상관관계가 높은 데이터입니다.
 - 종가(Close)를 기준으로 보면 비정상 시계열(Non-stationary)이고 계절성(Seasonality)이 있는 시계열이네요.
   - 다시한번 말씀드리지만, 시계열의 "정상성"은 Normality가 아닌 Stationary이며, 이는 데이터의 분산이 시간축과 관계없이 일정하다는 뜻입니다.
 
-![eda overview alerts](./undefined/img/post_img/2023-08-16-Advanced_time_series_data_analysis/eda-overview-alerts.png)
+![eda overview alerts](../img/post_img/2023-08-16-Advanced_time_series_data_analysis/eda-overview-alerts.png)
 
 - 개별 변수에 대해 자세히 봅시다.
 - 앞서 말씀드린, 상관관계/정상성/계절성에 대해 표시되어있고, 변수의 통계값, 히스토그램 등 도표들도 볼 수 있습니다.
@@ -106,7 +106,7 @@ profile.to_file("report_timeseries.html")
   - 분석이 이상하다? 안된다? 하면 보통 데이터의 특성을 잘 모르고, 그냥 숫자를 남이 만든 패키지에 넣기만 했을때가 보통 그렇습니다.
 - 이따가 모델의 결과가 이상하면 다시 이 내용을 보러 옵시다.
 
-![eda close variable](./undefined/img/post_img/2023-08-16-Advanced_time_series_data_analysis/eda-close-variable.png) 
+![eda close variable](../img/post_img/2023-08-16-Advanced_time_series_data_analysis/eda-close-variable.png) 
 
 ## Prophet 모델 구축
 - Prophet 알고리즘으로 종가를 모델링해봅시다.
@@ -140,7 +140,7 @@ plt.show()
       - 약 10%이상 차이가 나는군요. 방향성도 틀렸습니다.
       - 역시 직접적인 예측은 불가능하다는 결론이네요.
 
-![prediction result](./undefined/img/post_img/2023-08-16-Advanced_time_series_data_analysis/pred_model.png)
+![prediction result](../img/post_img/post_img/2023-08-16-Advanced_time_series_data_analysis/pred_model.png)
 
 - 예측 말고 해석적으로 접근해봅시다. 아래 코드로 시계열을 분해한 결과를 보겠습니다.
 ```python 
@@ -154,7 +154,7 @@ plt.show()
 - 월별로 살펴보면 1분기(1~3월) 상승, 2분기(4~6월) 하락, 3분기 상승, 4분기 다시 하락의 패턴을 보입니다. 이렇게 3개월 단위로 명확한 패턴이 보이기도 쉽지 않은데..
   - 여름엔 코인 팔아서 휴가비라도 가시는 걸까요..?
 
-![components of prediction result](./undefined/img/post_img/2023-08-16-Advanced_time_series_data_analysis/pred_component.png)
+![components of prediction result](../img/post_img/2023-08-16-Advanced_time_series_data_analysis/pred_component.png)
 
 - 이 외에도 예측 결과 시각화를 포함한 여러가지 기능들이 가능합니다.
   - Change point detection도 가능하고, Seasonal or Holiday effects를 추가하거나 Additional regressor를 붙이는 것도 가능합니다.
@@ -164,7 +164,7 @@ plt.show()
   a = add_changepoints_to_plot(fig.gca(), model, forecast)
   plt.show()
   ```
-![result of the change point detection](./undefined/img/post_img/2023-08-16-Advanced_time_series_data_analysis/pred_change_point.png)
+![result of the change point detection](../img/post_img/2023-08-16-Advanced_time_series_data_analysis/pred_change_point.png)
 
   - 마찬가지로 상세한 부분은 [여기](https://facebook.github.io/prophet/docs/quick_start.html)를 참고하세요. 포스트가 길어지기도 하고,,오늘은 약간만 더 고급지면 되기 때문에 여까지만 적겠습니다...😀
 
