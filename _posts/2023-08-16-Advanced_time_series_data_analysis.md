@@ -25,6 +25,7 @@ comments: true
 어려운 이야기를 할 필요도 없이, 빨간 선을 한두칸정도 왼쪽으로 옮기면 파란선과 동일해보이지 않습니까..?  
 전혀 예측이 되고 있지 않고, 직전 값보다 조금 높은 값을 뱉어내고 있군요. 비슷한 사례로는 직전 값보다 조금 낮은 값을 계속 뱉거나 직전 값과 거의 동일한 값을 계속 뱉는 경우가 있습니다.  
 우리는 가중 이동평균(Weighted moving average) 정도로도 동일한 효과를 낼 수 있는데 RNN이 필요한가요?
+
 > |항목|딥러닝|이동평균|
 > |------|:---:|:---:|
 > |데이터가 적어도 작동하는가?|X|O|
@@ -40,15 +41,20 @@ comments: true
 
 ### 오늘의 준비물(Package)
 - **ydata-profiling**: EDA를 지원하는 Python 패키지 (예전 이름인  pandas-profiling으로 널리 알려져있음)
+
 > *"ydata-profiling primary goal is to provide a one-line Exploratory Data Analysis (EDA) experience in a consistent and fast solution. Like pandas df.describe() function, that is so handy, ydata-profiling delivers an extended analysis of a DataFrame while alllowing the data analysis to be exported in different formats such as html and json.  
 (출처: [ydata-profiling 공식 페이지](https://ydata-profiling.ydata.ai/docs/master/index.html))"*
+
 - **Prophet**: Facebook Core Data Science Team (현 Meta)에서 공개한 Seasonality 분석용 패키지
+
 > *"Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It works best with time series that have strong seasonal effects and several seasons of historical data. Prophet is robust to missing data and shifts in the trend, and typically handles outliers well."  
 (출처: [Peophet 공식 페이지](https://facebook.github.io/prophet/))*
   - Apple Silicon에서는 아래 명령어로 설치를 추천합니다
+
     ```bash
     conda install prophet cmdstanpy==1.1.0 pystan==2.19.1.1
     ```
+
 - yfinance: 야후 파이낸스에서 주식 등 금융상품 데이터 수집 목적 비공식 패키지
 
 ## 데이터 수집
@@ -56,11 +62,13 @@ comments: true
 - yfinance를 사용하면 pandas.DataFrame 형태로 불러와집니다.
 - Column 명은 'Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume' 입니다.
   - 순서대로 시가, 고가, 저가, 종가, 수정종가, 거래량 입니다.
+
 ```python
 import yfinance as yf
 df = yf.download('BTC-USD', start='2020-01-01', end='2023-08-10')
 df.head()
 ```
+
 ```bash
                    Open         High  ...    Adj Close       Volume
 Date                                  ...
@@ -77,6 +85,7 @@ Date                                  ...
 - ydata-profiling은 EDA를 지원하는 패키지라고 말씀드렸는데, 간단한 Time series EDA도 지원합니다.
 - 이전 포스팅에서 말한 것 처럼 stastsmodels로도 일일히 가능하지만,,굳이 모든 컬럼에 대해 각각 코드를 돌리기 보다는 이쪽이 훨씬 편하니까요.  
 - 아래 코드를 실행하면 *"report_timeseries.html"* 라는 이름의 파일이 생깁니다.
+
 ```python 
 import pandas as pd
 from ydata_profiling import ProfileReport
@@ -86,6 +95,7 @@ profile = ProfileReport(df, tsmode=True, title="Time-Series EDA")
 
 profile.to_file("report_timeseries.html")
 ```
+
 ### EDA 결과 탐색
 #### Overview
 - 몇가지 탭이 있는데, 전반적인 데이터 개요를 볼 수 있습니다.
@@ -111,6 +121,7 @@ profile.to_file("report_timeseries.html")
 ## Prophet 모델 구축
 - Prophet 알고리즘으로 종가를 모델링해봅시다.
 - 상세한 파라미터들이 많이 있지만 그건 [여기](https://facebook.github.io/prophet/docs/diagnostics.html#hyperparameter-tuning)를 참고하세요.
+
 ```python
 from prophet import Prophet
 
@@ -118,20 +129,25 @@ df_renamed = df.rename(columns={'Date':'ds', 'Close':'y'})
 model = Prophet()
 model.fit(df_renamed)
 ```
+
 - 예측은 아래 코드로 가능합니다.
 - 미래 시점의 빈 pandas.DataFrame을 만들고, 모델로 해당 값을 채워넣는 방식입니다.
+
 ```python
 future = model.make_future_dataframe(periods=365) 
 forecast = model.predict(future)
 ```
+
 - 예측결과를 담은 ```forecast```는 ```pandas.core.frame.DataFrame```타입 변수이기 때문에, 다양한 방법으로 시각화가 가능합니다.
 - 기본적으로는 아래 방법으로 시각화가 가능합니다.
+
 ```python
 import matplotlib.pyplot as plt
 
 model.plot(forecast)
 plt.show()
 ```
+
 - 뭔가 예측스러운 느낌이 나긴 하네요..근데 과연 예측이 잘 된걸까요..?
     - 예측에는 2023/08/09 일까지의 데이터를 사용했습니다  
     (종가 29561.494141 USD/BTC).
@@ -143,10 +159,12 @@ plt.show()
 ![prediction result](../img/post_img/post_img/2023-08-16-Advanced_time_series_data_analysis/pred_model.png)
 
 - 예측 말고 해석적으로 접근해봅시다. 아래 코드로 시계열을 분해한 결과를 보겠습니다.
+
 ```python 
 model.plot_components(forecast)
 plt.show()
 ```
+
 - 아래 그림을 보면, 순서대로 연도별 트랜드, 요일별 트랜드, 월별 트랜드입니다.
   - Prophet 모델에 대해 자세히 설명하지 않았지만(이미 널리 알려졌으므로..), 간단하게 말하면 연/월/요일 별로 시계열을 분해해서 앞으로의 시계열을 예측하는 모델입니다.
 - 연도별로는 어떤 예측가능성이 보이는 것 같지는 않습니다만..해석적으로 접근하자면 코로나19 기간을 거치며 21년에 급등(1.5만불->5만불), 22년에 급락(5.5만불->2만불)했고, 현재시점에서는 다시 상승세에 있다..정도로 해석할 수 있겠습니다. 
@@ -158,12 +176,14 @@ plt.show()
 
 - 이 외에도 예측 결과 시각화를 포함한 여러가지 기능들이 가능합니다.
   - Change point detection도 가능하고, Seasonal or Holiday effects를 추가하거나 Additional regressor를 붙이는 것도 가능합니다.
+
   ```python
   from prophet.plot import add_changepoints_to_plot
   fig = model.plot(forecast)
   a = add_changepoints_to_plot(fig.gca(), model, forecast)
   plt.show()
   ```
+  
 ![result of the change point detection](../img/post_img/2023-08-16-Advanced_time_series_data_analysis/pred_change_point.png)
 
   - 마찬가지로 상세한 부분은 [여기](https://facebook.github.io/prophet/docs/quick_start.html)를 참고하세요. 포스트가 길어지기도 하고,,오늘은 약간만 더 고급지면 되기 때문에 여까지만 적겠습니다...😀
