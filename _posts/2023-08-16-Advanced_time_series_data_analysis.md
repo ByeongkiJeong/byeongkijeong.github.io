@@ -49,7 +49,8 @@ comments: true
 
 > *"Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It works best with time series that have strong seasonal effects and several seasons of historical data. Prophet is robust to missing data and shifts in the trend, and typically handles outliers well."  
 (출처: [Peophet 공식 페이지](https://facebook.github.io/prophet/))*
-  - Apple Silicon에서는 아래 명령어로 설치를 추천합니다
+
+- Apple Silicon에서는 아래 명령어로 설치를 추천합니다
 
 ```bash
 conda install prophet cmdstanpy==1.1.0 pystan==2.19.1.1
